@@ -58,7 +58,7 @@ h1 {
   color: white;
 }
 
-.container {
+.app .container {
   max-width: 700px;
   height: 700px;
   margin: auto;
@@ -70,19 +70,19 @@ h1 {
   justify-content: space-between;
 }
 
-.app .top {
+.app .container .top {
   width: 100%;
   margin: 1rem auto; 
 }
 
-.app .description {
+.app .container .top .description {
   position: relative;
   right: -90%;
   transform-origin: 0 0;
   transform: rotate(269deg);
 }
 
-.app .bottom {
+.app .container .bottom {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
